@@ -1071,7 +1071,7 @@ JAQSAgmBhEBCICGQEOgPAv8/jJprRucW75oAAAAASUVORK5CYII=
         
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token=" method="post">
+            <form action="http://formspree.io/jonathan@airvox.it" method="post">
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Name" required>
                 </div>
@@ -1079,11 +1079,13 @@ JAQSAgmBhEBCICGQEOgPAv8/jJprRucW75oAAAAASUVORK5CYII=
                     <input name="phone" type="tel" placeholder="Phone" required>
                 </div>
                 <div class="form-field">
-                    <input name="email" type="email" placeholder="Email" required>
+                    <input name="email" type="email" placeholder="Your Email" required>
                 </div>
                 <div class="form-field">
                     <textarea name="comments" placeholder="Message" required></textarea>
                 </div>
+                <input type="hidden" name="_subject" value="Website Appointment Request">
+                <input type="text" name="_gotcha" style="display:none" />
                 <input type="submit" class="btn btn-default" value="Send">
             </form>
         </div>
@@ -1390,7 +1392,7 @@ JAQSAgmBhEBCICGQEOgPAv8/jJprRucW75oAAAAASUVORK5CYII=
 <!-- End Gallery -->
 
 <!-- Start Map -->
-<div id="location" class="map" data-zoom="17" data-address="81 High Street, Wells, Somerset BA5 2AQ UK" data-address-details="<img src='img/logolong.png'   width='450px'    >"></div>
+<div id="location" class="map" data-zoom="17" data-address="81 High Street, Wells, Somerset BA5 2AQ UK" data-address-details="<img src='img/logolong.png' width='450px'>"></div>
 <!-- End Map -->
 
            
